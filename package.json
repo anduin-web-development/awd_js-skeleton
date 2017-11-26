@@ -1,0 +1,27 @@
+{
+  "name": "awd_js-skeleton",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "bootstrap": "^3.3.7",
+    "consolidate": "^0.14.5",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "~4.15.2",
+    "express-validator": "^4.2.1",
+    "jade": "~1.11.0",
+    "mailgun": "^0.5.0",
+    "morgan": "~1.8.1",
+    "popper": "^1.0.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}

@@ -1,0 +1,254 @@
+/* (c) 2017, Anduin Web Development */
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  background-color:white;
+  font-weight: 1;
+  color: #fff;
+}
+
+/* NAV BAR ITEMS SHALL GO HERE */
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-awd {
+  z-index: 500; /* Float effect */
+  width: 100%;
+  text-align: center;
+  background: #35b8ff;
+  ); 
+}
+
+.awd-container {
+  min-width: 85%; /* For element stacking upon smaller device windows.  */
+}
+
+.nav-awd a {
+  color: #29368c;
+  font-size: 0.85em;
+  text-decoration: none;
+  margin-top: 2%;
+}
+
+.nav-awd button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 0;
+}
+
+a:hover {
+  color: #a5b3ff;
+}
+
+.btn-awd {
+  background-color: #a5b3ff;
+  border-radius: 49px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: #a5b3ff;
+}
+
+.btn-awd:hover {
+  background-color: #29368c;
+}
+
+.btn-awd-nav {
+  border-color: #a5b3ff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.btn-awd-nav a {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.btn-awd-submit {
+  border-radius: 25px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Adding collapsable feature stylings  */
+
+.awd-nav-collapse {
+  max-height: 120px;
+  background: lightPink;
+}
+
+.nav-awd a.short-icon {
+  display: none; /* Default setting for scolling-only icon */
+}
+
+.awd-nav-collapse a.short-link {
+  display: none;
+}
+
+.awd-nav-collapse a.short-icon {
+  margin-left: 30px;
+  display: block;
+}
+
+.awd-nav a,
+button {
+  cursor: pointer;
+}
+
+/* FOOTER ITEMS */
+
+.awd-footer {
+  bottom: 0;
+  font-size: 0.8em;
+  color: #fff;
+  background: #35b8ff;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.awd-footer p {
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
+.awd-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* MAIN BODY ITEMS */
+
+.awd-card {
+  min-height: 100vh;
+  background-color: #35b8ff;
+}
+
+.awd-card-slug {
+  background: transparent;
+  border: none;
+  padding: 5%;
+}
+
+.awd-jumbotron {
+  background-color: transparent;
+}
+
+.awd-jumbotron-blur {
+  background: radial-gradient(ellipse farthest-side, lightcyan, transparent 100%);
+}
+
+.awd-jumbotron-bold {
+  text-align: justify;
+  padding: 5%;
+}
+
+.awd-gondor .lead,
+.lead-sm {
+  padding-top: 2%;
+  padding-bottom: 0%;
+}
+
+/* HOME PAGE */
+
+.home-section-1 {
+  padding-top: 10%;
+  text-align: center;
+  min-height: 100vh; /* For enhanced UX */
+}
+
+.home-section-1 .awd-headline {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.home-section-2 {
+  padding: 10%;
+  background-color:#9fddff ;
+  min-height: 100vh;
+
+}
+
+.home-section-3 {
+  background-color: white;
+  padding: 10%;
+}
+
+.btn-awd-action {
+  margin-top: 10%;
+  background-color: #8282f8;
+}
+
+.btn-awd-action-blue {
+  margin-top: 10%;
+  background-color: #ffffff4f;
+  border: none;
+}
+
+.btn-awd-action-blue:hover {
+  margin-top: 10%;
+  background-color: #fff;
+  color: #29368c;
+}
+
+/*
+
+GONDOR SECTION
+
+*/
+
+.awd-gondor {
+  /* background-color: lightskyblue; */
+}
+
+/*
+
+ROHAN SECTION
+
+*/
+
+.awd-rohan {
+  /* background-color: lightskyblue; */
+}
+
+.awd-icon {
+  font-size: 5em;
+  padding: 5%;
+  margin-bottom: 2%;
+  border-radius: 100px;
+}
+
+.awd-card-main {
+  border: none;
+  color: darkBlue;
+  position: relative;
+}
+
+.awd-card-header {
+  background-color: grey;
+}
+
+.awd-card-body {
+  min-height: 30vh;
+}
+
+/*
+
+FOURTH
+
+*/
+
+.awd-contact {
+  padding-top: 0;
+  color: white;
+}
+
+.client-contact-form h5 {
+  padding-top: 2%;
+}
+
+.client-contact-form input {
+  margin-bottom: 4%;
+}
