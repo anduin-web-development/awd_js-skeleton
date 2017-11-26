@@ -1,5 +1,5 @@
-# gitignore
+# Anduin Web Development
+# This .gitignore is for the awd_js-skeleton project.
 
-./node_modules/
+node_modules/
 .env
-
